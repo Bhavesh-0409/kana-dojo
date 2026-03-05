@@ -129,13 +129,13 @@ const Effects = () => {
                 borderColorScheme={isSelected ? 'main' : 'secondary'}
                 borderBottomThickness={16}
                 borderRadius='3xl'
-                className={`px-3 py-2 text-sm text-(--background-color) capitalize ${!isSelected ? 'opacity-40' : ''}`}
+                className={`px-3 py-4  text-(--background-color) ${!isSelected ? 'opacity-50' : ''}`}
                 onClick={() => {
                   setClickSoundId(option.id);
                   playClickById(option.id);
                 }}
               >
-                {option.label}
+                {option.label.toLowerCase()}
               </ActionButton>
             );
           })}
