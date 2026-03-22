@@ -532,5 +532,11 @@
   "backgroundColor": "oklch(16.0% 0.025 280.0 / 1)",
   "mainColor": "oklch(85.0% 0.125 220.0 / 1)",
   "secondaryColor": "oklch(78.0% 0.165 45.0 / 1)"
+  },
+  {
+  "id": "school-uniform",
+  "backgroundColor": "oklch(92.0% 0.015 250.0 / 1)",
+  "mainColor": "oklch(40.0% 0.145 255.0 / 1)",
+  "secondaryColor": "oklch(60.0% 0.175 20.0 / 1)"
   }
 ]
